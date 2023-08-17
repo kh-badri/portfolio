@@ -1,0 +1,51 @@
+.html {
+  scroll-behavior: smooth;
+}
+.body{
+  font: italic normal 16px/18px helvetica,arial,sans-serif;
+
+}
+
+.navbar  {background-color: #58c445	;
+ }
+
+
+ .jumbotron {
+  background-image: url(../img/working.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -120px;
+} 
+/* Contoh direras */
+
+/*.jumbotron {
+  background-image: url(../img/retas.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -500px;
+}
+*/
+.jumbotron h1,
+.jumbotron p {
+  color: aliceblue;
+}
+.Project.card img {
+border-radius: 90%;
+}
+.Project.card {
+  opacity: 0;
+}
+.Project.card.muncul {
+  opacity: 1;
+}
+#Contact {
+  background-color: #ffff;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+footer {
+  background-color:#58c445 ;
+}
